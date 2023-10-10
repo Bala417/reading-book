@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.booklist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+}
+.App {
+  background-color: rgb(155, 155, 152);
+  padding: 5px;
+}
+.item {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(94, 91, 91);
+  border: none;
+  padding: 2px;
+  margin: 2px;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(49, 48, 48);
+}
+button::selection {
+  background-color: rgb(244, 235, 235);
+}
